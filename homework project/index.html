@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Universities in Serbia</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+
+</head>
+
+      <body>
+
+
+<!------Deo za header (u kojem se nalazi meni)------->
+        <section class="header">
+            <nav>
+                <a href ="index.html"><img src="slike/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <ion-icon name="fa close-outline" onclick="hideMenu()"></ion-icon>
+                    <ul>
+                        <li><a href ="index.html">HOME</a> </li>
+                        <li><a href ="About.html">ABOUT</a> </li>
+                        <li><a href ="Faculties.html">FACULTIES</a> </li>
+                        <li><a href ="Blog.html">BLOG</a> </li>
+                        <li><a href ="Contact.html">CONTACT</a> </li>
+
+                    </ul>
+                </div>
+                <ion-icon name="fa menu-outline" onclick="showMenu()"></ion-icon>
+            </nav>
+<div class="text-box">
+    <h1>The best Universities in Serbia</h1>
+    <p> Are you planning to enroll in college, and you still don't know which is the right choice? <br> This is the right place for you!</p>
+    <a href ="About.html" class="hero-btn">More information</a>
+</div>
+        </section>
+
+
+<!------Deo stranice koji pokazuje nivoe obrazovanja na koje je moguce da se konkurise------->
+<section class="course">
+    <h1>Levels of education</h1>
+    <p>This is what we can offer you</p>
+
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Bachelor's studies</h3>
+            <p>A bachelor’s degree is an undergraduate degree in which students study a subject of their choice at an academic institution and is commonly known as a college degree. Getting a bachelor’s degree can open access to job opportunities, expose you to new ideas, and boost your earning potential.</p>
+        </div>
+        <div class="course-col">
+            <h3>Master studies</h3>
+            <p>The MSt (Master of Studies) is a part-time Master's degree, designed for individuals who may be working full time as well as studying. ... MSt programmes are academically rigorous postgraduate programmes, usually undertaken over two years.</p>
+        </div>
+        <div class="course-col">
+            <h3>PhD studies</h3>
+            <p>A PhD dissertation is the final part of the programme of study. It consists of an independent and original piece of research, which must be completed in the relevant field or several fields of science. Students are entitled to hand in their dissertation once they have met the set requirements and have passed the examinations issued by the programme of study. </p>
+        </div>
+    </div>
+</section>
+
+<!--------Deo koji prikazuje top tri univerziteta u Srbiji-------->
+<section class="campus">
+    <h1>Our Universities</h1>
+    <p>These are our top 3 choices for you!</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="slike/beograd2.jpg">
+            <div class="layer">
+                <h3>University of Belgrade</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="slike/novisad2.jpg">
+            <div class="layer">
+                <h3>University of Novi Sad</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="slike/nis.jpg">
+            <div class="layer">
+                <h3>University of Nis</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!-------Deo gde se nalaze komentari studenata i njihova ocena i utisak------>
+<section class="testimonials">
+    <h1>What Our Student Says</h1>
+
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="slike/miona.jpg">
+            <div>
+                <p>I love it here! People are so nice and professors are very professional.</p>
+                <h3>Miona Vukcevic</h3>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+               
+            </div>
+
+        </div>
+        <div class="testimonials-col">
+            <img src="slike/jasna.jpg">
+            <div>
+                <p>University of Belgrade rocks!</p>
+                <h3>Jasna Bekcic</h3>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half-outline"></ion-icon>  
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-------Deo veb stranice namenjen za prebacivanje na contact veb stranicu-------->
+<section class="cta">
+    <h1>Do you need more information?</h1>
+    <a href="Contact.html" class="hero-btn">CONTACT US</a>
+
+</section>
+
+
+<!-------Deo za footer-------->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>When in doubt, study in Serbia.</p>
+
+    <div class="icons">
+        <a href="https://www.facebook.com/univerzitet.u.beogradu">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="https://www.twitter.com/UniverzitetBG">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/univerzitet.u.beogradu/">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+    </div>
+</section>
+       
+<!--Ovaj deo nam sluzi za dodavanje ikonica na veb stranicu-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+<script src="skripte/main.js"></script>
+<script src="skripte/Date.js"></script>
+
+
+
+     </body>
+</html>
